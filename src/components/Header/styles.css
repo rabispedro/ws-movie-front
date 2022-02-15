@@ -1,0 +1,29 @@
+header {
+	background-color: var(--color-primary);
+	height: 3.75rem;
+	display: flex;
+	align-items: center;
+}
+
+.wsmovie-nav-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #FFFFFF;
+}
+
+.wsmovie-nav-content h1 {
+	font-size: 24px;
+	margin: 0;
+	font-weight: 700;
+}
+
+.wsmovie-contact-container {
+	display: flex;
+	align-items: center;
+}
+
+.wsmovie-contact-link {
+	font-size: 12px;
+	margin: 0 0 0 0.625rem;
+}
