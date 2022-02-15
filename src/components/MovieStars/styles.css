@@ -1,0 +1,10 @@
+.wsmovie-stars-container {
+	width: 8.125rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wsmovie-stars-container svg {
+	width: 1.375rem;
+	height: auto;
+}

@@ -1,12 +1,12 @@
 .wsmovie-pagination-container {
-	padding: 15px 0;
+	padding: 0.938rem 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .wsmovie-pagination-box {
-	width: 180px;
+	width: 11.25rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -18,14 +18,14 @@
 }
 
 .wsmovie-pagination-button {
-	width: 40px;
-	height: 40px;
-	border-radius: 4px;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.25rem;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid var(--color-primary);
+	border: 0.063rem solid var(--color-primary);
 	cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .wsmovie-pagination-button:disabled {
-	border: 1px solid #c2c2c2;
+	border: 0.063rem solid #c2c2c2;
 	cursor: unset;
 }
 
