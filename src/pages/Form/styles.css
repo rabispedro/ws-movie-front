@@ -1,0 +1,57 @@
+.wsmovie-form-container {
+	max-width: 30rem;
+	margin: 2.5rem auto;
+	padding: 1.25rem;
+}
+
+.wsmovie-form {
+	width: calc(100% - 1.25rem);
+}
+
+.wsmovie-form-group {
+	margin-bottom: 1.25rem;
+}
+
+.wsmovie-form-group label {
+	font-size: 12px;
+	color: #aaa;
+}
+
+.wsmovie-form-btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.wsmovie-movie-card-image {
+	width: 100%;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.wsmovie-card-bottom-container {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.625rem 0.625rem 1.25rem 0.625rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.wsmovie-card-bottom-container h3 {
+	color: #4A4A4A;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 0.625rem;
+	min-height: 2.5rem;
+}
+
+.wsmovie-btn {
+	background-color: var(--color-primary);
+	font-size: 14px;
+	font-weight: 700;
+	height: 2.5rem;
+	width: 11.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
