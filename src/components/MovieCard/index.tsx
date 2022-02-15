@@ -1,5 +1,6 @@
 import MovieScore from 'components/MovieScore';
-// import './styles.css';
+import { Link } from 'react-router-dom';
+import './styles.css';
 
 const MovieCard: React.FC = () => {
 	const movie = {
@@ -17,7 +18,9 @@ const MovieCard: React.FC = () => {
 				<div className="wsmovie-card-bottom-container">
 					<h3>{movie.title}</h3>
 					<MovieScore />
-					<div className="btn btn-primary wsmovie-btn">Avaliar</div>
+					<Link to={`/form/${movie.id}`}>
+						<div className="btn btn-primary wsmovie-btn">Avaliar</div>
+					</Link>
 				</div>
 			</div>
 		</>
